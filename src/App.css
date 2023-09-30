@@ -10,6 +10,25 @@ main {
   max-width: 360px;
   margin: 30px auto;
 }
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+  margin-left: 10px; /* Add some spacing between the links */
+}
+
+header nav {
+  display: flex;
+  align-items: center; /* Vertically center the links within the header */
+}
 h1 {
   text-align: center;
   color: #ffffff;

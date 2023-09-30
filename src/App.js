@@ -93,6 +93,12 @@ function App() {
 
   return (
     <main>
+      <header>
+        <nav>
+        <a href="">Login</a>
+        <a href="">Register</a>
+        </nav>
+      </header>
       <h1>
         {balance}
         <span>.00</span>
@@ -103,7 +109,7 @@ function App() {
             type="text"
             value={name}
             onChange={(ev) => setName(ev.target.value)}
-            placeholder="Name"
+            placeholder="300 expense title"
           />
 
           <input
